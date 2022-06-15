@@ -10,7 +10,8 @@ from modelcode import SentimentModel
 def predict(text,wpath):
     seq,attn_mask = preprocess.preprocess(text)
     model=SentimentModel()
-    model.load_state_dict(torch.load(wpath))
+    model.load_state_dict(torch.load(wpath,map_location=torch.device('cpu')))
+    model.to("cpu")
     model.eval()
     with torch.no_grad():
         logits = model(seq[:,0,:], attn_mask[:,0,:])
