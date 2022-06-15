@@ -20,5 +20,4 @@ I used the BERT model and a linear layer at the end. Therefore, for word embeddi
  (I couldn't host the website due to large size)
  
  
- ![image](https://user-images.githubusercontent.com/62956111/173850621-b71b59b9-c3c6-4ee5-afc1-01b3d7312c47.png)
-
+![image](https://user-images.githubusercontent.com/62956111/173854093-3e940fc3-b4da-4943-8ce0-1dff68610b49.png)
