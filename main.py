@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 # set paths to upload folder
 APP_ROOT = os.path.dirname(os.path.abspath(__file__))
-wpath = os.path.join(APP_ROOT,"weight.pth")
+wpath = os.path.join(APP_ROOT,"static/weight.pth")
 
 @app.route("/", methods=["GET","POST"])
 def predict(wpath=wpath):
