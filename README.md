@@ -8,7 +8,7 @@ This sentiment analysis model classifies the text into 1 to 5, based on the sent
 For example, "Nice product" usually means a score of 5 and “Poor quality” usually means a score of 1.
 <br><br>
 &nbsp;&nbsp; The model was trained using the 
-<a href="https://www.kaggle.com/datasets/bittlingmayer/amazonreviews">Amazon reviews dataset</a>, 
+<a href="https://www.kaggle.com/datasets/snap/amazon-fine-food-reviews">Amazon food reviews dataset</a>, 
 which contains around 5 lakh reviews. Since there was a class imbalance, I did undersampling to balance the classes. 
 I used the BERT model and a linear layer at the end. Therefore, for word embedding, I used the BERT tokenizer.
  The parameters of the BERT model were frozen during the training process to avoid computational complexity. 
