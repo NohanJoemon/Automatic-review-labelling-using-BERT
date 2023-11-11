@@ -17,9 +17,6 @@ I used the BERT model and a linear layer at the end. Therefore, for word embeddi
  
  ## Website preview
  
-https://review-labelling.herokuapp.com/
-
-### (Note: The overall size of this app is just below the free limit of heroku, hence it can sometimes give error. In those cases, try refreshing it one or two times)
  
  
 ![image](https://user-images.githubusercontent.com/62956111/173854093-3e940fc3-b4da-4943-8ce0-1dff68610b49.png)
